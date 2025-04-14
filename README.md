@@ -87,7 +87,7 @@ void _addNote() {
 }
 ```
 
-I made so you can hit Enter to add a note
+I made so you can click Enter to add a note
 
 ```dart
 TextField(
@@ -124,8 +124,7 @@ void _editNoteDialog(int index) {
 
 
 #### Deleting Notes
-
-Deleting is super simple thanks to Hive:
+delting is simple with hive
 
 ```dart
 void _deleteNote(int index) {
